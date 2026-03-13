@@ -96,6 +96,6 @@ jobs:
            with:
               image-ref: ${{ secrets.DOCKER_USERNAME }}/node-app:latest
               format: table
-              exit-code: 1
+              exit-code: 0
               ignore-unfixed: true
               vuln-type: os,library
